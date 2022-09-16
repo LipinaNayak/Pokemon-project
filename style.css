@@ -1,0 +1,64 @@
+body{
+    background-Color:rgb(255, 102, 0);
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.card{
+    list-style: none;
+    padding: 40px;
+    background-color: rgb(233, 163, 122);
+    color: black;
+    text-align: center;
+}
+
+.card:hover{
+    animation: bounce 0.5s linear;
+}
+@keyframes bounce {
+20% {
+    transform: translateY(-6px);
+}
+40%{
+    transform: translateY(0px);
+}
+60%{
+    transform: translateY(-2px);
+}
+80%{
+    transform: translateY(-0px);
+}
+}
+
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.card-subtitle{
+    font-weight: lighter;
+    color: aqua;
+    margin-top:5px;
+}
+.card-image{
+    height: 180px;
+}
+
+#hellopokemon{
+padding-inline-start: 0;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(320px,1fr)) ;
+grid-gap:20px;
+}
+.container{
+padding: 40px;
+margin:0 auto ;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 54px;
+}
